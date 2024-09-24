@@ -1,0 +1,56 @@
+<template>
+  <section>
+    <div id="container" style="width:100%; height:680px; margin-top: 20px"></div>
+  </section>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      queryParams: {
+        address: ''
+      },
+      mapDrawn: false // 添加标记来防止重复绘制地图
+    }
+  },
+
+  mounted() {
+    this.geolocation = new qq.maps.Geolocation('FHXBZ-5EQCZ-SMFXD-TBJC4-NWL36-AUFIM', 'myapp');
+    this.getMyLocation();
+  },
+
+  methods: {
+    getMyLocation() {
+      this.geolocation.getLocation(this.showPosition, this.errorPosition);
+    },
+
+    showPosition(position) {
+      this.queryParams.address = `${position.city} ${position.province} ${position.addr}`;
+      if (!this.mapDrawn) {
+        // 绘制地图的逻辑
+        this.mapDrawn = true;
+      }
+    },
+
+    errorPosition(e) {
+      console.log('定位失败，再次进行定位');
+      if (!this.mapDrawn) {
+        this.getMyLocation();
+      }
+    },
+  }
+}
+</script>
+
+<style scoped>
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+  margin-top: 20px;
+  height: 680px;
+}
+</style>

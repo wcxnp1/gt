@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "headnavigation": "../../components/Joinus/Headnavigation/index",
+    "headnavigationto": "../../components/Joinus/Headnavigation/indexto",
+    "videoset": "../../components/Joinus/Video/index",
+    "centerbox": "../../components/Joinus/joinuscenten/index",
+    "swiperset": "../../components/Joinus/swiper/index",
+    "work": "../../components/Joinus/work/index",
+    "service": "../../components/Joinus/giveserviceto/index",
+    "foot": "../../components/foots"
+  }
+}

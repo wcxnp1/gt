@@ -1,0 +1,45 @@
+@media (max-width: 956px) {
+	.Bigboxofcontents-text {
+		font-size: 1rem;
+	}
+
+	.Bigboxofcontents-name {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 956px) {
+	.Bigboxofcontents-text {
+		font-size: 1rem;
+	}
+
+	.Bigboxofcontents-name {
+		font-size: 1rem;
+	}
+
+
+}
+
+
+
+
+
+/* @media (max-width: 1912px) {
+	.video-player {
+		position: absolute;
+		top: -152px !important;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 7648px) {
+	.video-player {
+		position: absolute;
+		top: -552px !important;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+} */

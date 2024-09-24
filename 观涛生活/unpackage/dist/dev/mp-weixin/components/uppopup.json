@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-popup": "../node-modules/uview-plus/components/u-popup/u-popup",
+    "navigation": "./Homedata/navigation",
+    "navigatethecomplex": "./Homedata/Navigatethecomplex",
+    "nationbtn": "./Homedata/nationbtn"
+  }
+}

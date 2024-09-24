@@ -1,0 +1,1 @@
+<view class="index data-v-7b409e4b"><up-swiper wx:if="{{a}}" class="data-v-7b409e4b" u-i="7b409e4b-0" bind:__l="__l" u-p="{{a}}"></up-swiper></view>

@@ -1,0 +1,23 @@
+.color {
+	color: #ffd100;
+}
+
+.blankc {
+	color: black;
+}
+
+.bg-c {
+	background-color: #ffd100;
+}
+
+.bgoptipn {
+	background-color: rgba(0, 0, 0, 2);
+}
+
+.fs {
+	font-size: 1.5rem;
+}
+
+li {
+	list-style: none;
+}

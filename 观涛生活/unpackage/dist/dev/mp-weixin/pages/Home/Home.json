@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navigationbar": "../../components/Navigationbar",
+    "topic": "../../components/hone/topic",
+    "indexset": "../../components/hone/boxofcontents/index",
+    "foots": "../../components/foots"
+  }
+}

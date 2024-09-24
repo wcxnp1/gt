@@ -1,0 +1,1 @@
+<view class="Joinusinput data-v-5d0ec029" style="{{'margin:' + c}}"><view class="Joinusinput-box data-v-5d0ec029"><input type="text" class="my-input data-v-5d0ec029" placeholder="请输入内容..." style="{{'padding:' + a}}"/><view class="Joinusicon data-v-5d0ec029"><up-icon wx:if="{{b}}" class="data-v-5d0ec029" u-i="5d0ec029-0" bind:__l="__l" u-p="{{b}}"></up-icon></view></view></view>

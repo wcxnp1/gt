@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/index/index",
+    "pages/Joinus/Joinus"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

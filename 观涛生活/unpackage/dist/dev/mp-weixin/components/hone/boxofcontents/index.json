@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "seethemall": "../Seethemall",
+    "bigboxofcontents": "./Bigboxofcontents"
+  }
+}

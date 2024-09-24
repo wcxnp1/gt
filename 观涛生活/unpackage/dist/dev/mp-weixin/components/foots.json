@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-collapse-item": "../node-modules/uview-plus/components/u-collapse-item/u-collapse-item",
+    "up-collapse": "../node-modules/uview-plus/components/u-collapse/u-collapse"
+  }
+}
